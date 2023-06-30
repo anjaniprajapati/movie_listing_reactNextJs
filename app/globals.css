@@ -1,0 +1,26 @@
+body{
+  background: var(--bg-dark, #0E0E15);
+  margin: 0px;
+}
+
+.Row_1 {
+  border: solid 1px white;
+  height: 72px;
+}
+.row{
+  border: solid 1px white;
+  height: 72px;
+}
+.Icon{
+  height: 72px;
+  width: 72px;
+  padding: 0px 0px 0px 80px;
+}
+.row_1{
+  border: solid 1px white;
+  height: 22px;
+}
+.Row_1 {
+  border: solid 1px red;
+  height: 500px;
+}
