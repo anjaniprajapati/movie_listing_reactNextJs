@@ -1,26 +1,489 @@
 body{
-  background: var(--bg-dark, #0E0E15);
-  margin: 0px;
+	background: var(--bg-dark, #0E0E15);
 }
 
-.Row_1 {
-  border: solid 1px white;
-  height: 72px;
-}
-.row{
-  border: solid 1px white;
-  height: 72px;
-}
-.Icon{
-  height: 72px;
-  width: 72px;
-  padding: 0px 0px 0px 80px;
+/*Header*/
+.Row {
+  	border: solid 0px white;
 }
 .row_1{
-  border: solid 1px white;
-  height: 22px;
+ 	border: solid 0px white;
+  	height: 28px;
 }
-.Row_1 {
-  border: solid 1px red;
-  height: 500px;
+.row_2{
+	border: solid 1px #0E0E15;
+  	height: 72px;
 }
+.Img{
+	border: solid 0px red;
+	height:73px;
+	width:72px;
+	margin:0px 0px 0px 90px;
+}
+.PMovieHub{
+	border: solid 1px #0E0E15;
+	height:45px;
+	width:150px;
+	margin-top:-60px;
+	margin-left:180px;
+}
+.movieHub{
+	color:white;
+	font-size:31px;
+	margin-top:2px;
+	font-weight: 550;
+	font-family: Karantina;
+}
+.Pwatch{
+	border: solid 1px #0E0E15;
+	height:30px;
+	width:68px;
+	margin-left:920px;
+	margin-top:-40px;
+}
+.watch{
+	color:white;
+	font-size:20px;
+	margin-top:4px;
+	font-weight: 500;
+}
+.Paddmovie{
+	border: solid 1px #0E0E15;
+	height:30px;
+	width:115px;
+	margin-left:1025px;
+	margin-top:-32px;
+}
+.addmovie{
+	color:white;
+	font-size:20px;
+	margin-top:4px;
+	font-weight: 500;
+}
+
+.row_3{
+  border-bottom: solid 2px red;
+  height: 28px;
+}
+/*movie Component */
+.Div_wtch{
+	border:solid 1px #0E0E15;
+	position:relative;
+	height:30px;
+	width:70px;
+	left:149px;
+	top:50px;
+}
+.Die_wtch_p{
+	color:white;
+	margin-top:1.5px;
+	font-size:20px;
+	font-weight: 500;
+}
+.movieData_mainDiv{
+	border:solid 1px #0E0E15;
+	height:300px;
+	width:960px;
+	position:relative;
+	left:148px;
+	top:80px;
+	
+}
+.movieRow{
+	border-bottom: solid 3px #5E5E75;
+	height:277px;
+	width:960px;
+	position:relative;
+	top:10px;
+}
+.MovieImgDiv{
+	border:solid 1px #0E0E15;
+	height:252px;
+	width:200px;
+	
+}
+
+.AboutMovieDiv{
+	border:solid 1px #0E0E15;
+	position:relative;
+	width: 728px;
+	height: 252px;
+	left:230px;
+	bottom:254px;
+		
+}
+.heading{
+	color:white;
+	position:relative;
+	bottom:15px;
+}
+.yeartime{
+	color:white;
+	position:relative;
+	bottom:30px;
+	font-size:10px;
+}
+.disDiv{
+	border:solid 1px #0E0E15;
+	position:relative;
+	bottom:25px;
+	width: 500px;
+	height: 95px;
+}
+.DiscHead{
+	color:white;
+	position:relative;
+	bottom:10px;
+	font-size:20px;
+}
+.aboutdiscription{
+	color:white;
+	position:relative;
+	bottom:20px;
+	font-size:13px;
+}
+/*Like*/
+.likeDive{
+	border:solid 1px #0E0E15;
+	position:relative;
+	top:13px;
+	height:32px;
+	width:32px;
+}
+.like{
+	height:33px;
+	width:33px;
+	cursor: pointer;
+}
+/*Ratting*/
+.rattingDive{
+	border:solid 1px #0E0E15;
+	position:relative;
+	bottom:22px;
+	color:white;
+	text-align: center;
+	padding-top: 10px;
+	left:40px;
+	height:27px;
+	width: fit-content;
+	background:#272734;
+	border-radius:50px;
+	
+}
+/* Dislike*/
+.dislikeDive{
+	border:solid 1px #0E0E15;
+	position:relative;
+	bottom:57px;
+	left:75px;
+	height:32px;
+	width:32px;
+	cursor: pointer;
+}
+/*Delete*/
+.deleteDive{
+	border:solid 1px #0E0E15;
+	position:relative;
+	bottom:88px;
+	float:right;
+	cursor: pointer;
+	height:28px;
+	width:26px;
+}
+/*Add movie Form Component */
+
+.DivP{
+	border:solid 1px #0E0E15;
+	width:960px;
+	height:61px;
+	margin-left:149px;
+	margin-top:150px;
+}
+.Add_New_Movie{
+	position:relative;
+	bottom:25px;
+	color:white;
+	font-size:20px;
+	font-weight: 500;
+}
+.the_list_above{
+	position:relative;
+	bottom:45px;
+	color:white;
+	font-size:13px;
+}
+.addmovieForm{
+	border:solid 1px #272734;
+	height:1267px;
+	width:960px;
+	margin-left:149px;
+	background: var(--bg-secondary, #272734);
+}
+.Hadding{
+	color:white;
+	margin-top:64px;
+	margin-left:55px;
+	font-size:40px;
+	font-weight: 600;
+}
+.InputDiv1{
+	border: solid 0px blue;
+	height:68px;
+	width:352px;
+	margin-top:50px;
+	margin-left:64px;
+	color:white;
+	font-size:19px;
+}
+.nameinput{
+	height:40px;
+	width:352px;
+	color:white;
+	background:#5E5E75;
+	border-radius: 8px;
+}
+.InputDiv2{
+	border: solid 0px blue;
+	height:68px;
+	width:352px;
+	margin-top:30px;
+	margin-left:64px;
+	color:white;
+	font-size:19px;
+}
+.polygonD{
+	margin-top:-32px;
+	margin-left:335px;
+}
+
+.InputDiv3{
+	border: solid 0px blue;
+	height:68px;
+	width:352px;
+	margin-top:30px;
+	margin-left:64px;
+	color:white;
+	font-size:19px;
+}
+.nameinput1{
+	height:40px;
+	width:90px;
+	background:#5E5E75;
+	border-radius: 8px;
+	color:white;
+}
+.nameinputD2{
+	border: solid 0px blue;
+	height:40px;
+	width:90px;
+	margin-top:-47px;
+	margin-left:165px;
+}
+
+.nameinput2{
+	height:40px;
+	width:90px;
+	color:white;
+	background:#5E5E75;
+	border-radius: 8px;
+
+
+}
+.min{
+	margin-top:-33px;
+	margin-left:100px;
+}
+.moviegenre{
+	color:white;
+	font-size:25px;
+	margin-left:67px;
+	font-weight: 300;
+	margin-top:35px;
+}
+.selectApplicabale{
+	color:white;
+	font-size:20px;
+	margin-left:67px;
+	font-weight: 300;
+	margin-top:-19px;
+}
+.chekbox{
+	border-color: red;
+	margin-left:90px;
+	height:20px;
+	width:20px;
+	margin-top:-30px;
+	background:  #272734;
+}
+.pragraph{
+	color:white;
+	margin-left:115px;
+	margin-top:-23px;
+}
+.mainDiv{
+	border:solid 0px red;
+	width:613px;
+	height:199px;
+	margin-left:67px;
+}
+.DescripDiv{
+	border:solid 0px red;
+	width:613px;
+	height:30px;	
+}
+.DescriP{
+	color:white;
+	margin-top:2.5px;
+	font-size:21px;
+	font-weight: 550;
+}
+.DescriptionWritDiv{
+	border:solid 0px red;
+	width:613px;
+	height:166px;
+	background:#5E5E75;
+	border-radius: 8px;
+	color:white;
+	font-size:16px;
+	
+}
+.UmainDiv{
+	border: solid 0px pink;
+	width:205px;
+	height:80px;
+	margin-left:67px;
+	margin-top:5px;
+}
+.UploadImgDiv{
+	border: solid 0px pink;
+	width:205px;
+	height:20px;
+}
+.ImgUp{
+	color:white;
+	margin-top:1px;
+	font-size:17px;
+	font-weight: 350;
+}
+.Upload{
+	border: solid 3px red;
+	width:129px;
+	height:44px;
+	margin-top:12px;
+	border-radius: 50px;	
+}
+.uplod{
+	color:white;
+	margin-top:8px;
+	font-size:25px;
+	font-weight: 350;
+	margin-left:20px;
+	cursor: pointer;
+}
+.addmovies{
+	border:solid 1px #F85146;
+	width:190px;
+	height:60px;
+	margin-top:45px;
+	background:#F85146;
+	cursor: pointer;
+}
+.addmovies1{
+	color:white;
+	margin-left:39px;
+	margin-top:20px;
+	font-size:20px;
+	font-weight: 600;
+}
+/*Add New Movie form*/
+.addnewmovie_mainDiv{
+	border:solid 0px yellow;
+	height:200px;
+	width:960px;
+	margin-top:100px;
+	margin-left:149px;
+}
+.addnewmovieDiv{
+	border:solid 0px yellow;
+	height:30px;
+	width:156px;
+}
+.addnewmo{
+	color:white;
+	margin-top:3px;
+	font-size:18px;
+	font-weight:500;	
+}
+.pragrphDivp{
+	border:solid 0px yellow;
+	height:16px;
+	width:720px;
+}
+.aboutpragraph{
+	color:white;
+	margin-top:1px;
+	font-size:14px;
+}
+.Newmovies{
+	border:solid 1px #F85146;
+	width:200px;
+	height:50px;
+	margin-top:35px;
+	background:#F85146;
+	border-radius:3px;
+	cursor: pointer;
+}
+.newmovies{
+	color:white;
+	margin-left:20px;
+	margin-top:14px;
+	font-size:18px;
+	font-weight: 500;
+}
+.logoadd{
+	border:solid 1px #F85146;
+	position: relative;
+  	top:-50px;
+	width:40px;
+	height:40px;
+	left:138px;
+}
+
+/*Footer*/
+
+.footer{
+	border: solid 0px red;
+	height:140px;
+	margin-top:70px;
+	background: var(--bg-secondary, #272734);
+	
+}
+.footer_row1{
+	border:solid 0px purple;
+	height:39px;
+}
+.footer_row2{
+	border:solid 0px purple;
+	height:39px;
+}
+.footer_row3{
+	border:solid 0px purple;
+	height:30px;
+}
+.Iconnav{
+	border:solid 0px blue;
+	margin-left:140px;
+}
+.CPReact{
+	border:solid 0px blue;
+	position:relative;
+	left:275px;
+	width:145px;
+	bottom:30px;
+}
+.footer_row4{
+	border:solid 0px purple;
+	height:25px;
+}
+
+
