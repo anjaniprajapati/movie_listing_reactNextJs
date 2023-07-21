@@ -1,12 +1,14 @@
-var AddMovie =()=>{
+const AddMovie =({onDeleteForm})=>{
 	return(
 		<>	
-			<div className="DivP">
-				<p className="Add_New_Movie">Add A New Movie</p>
-				<p className="the_list_above">To add a movie you have to fill a form. The added movie will appear in the list above </p>
-			</div>
+			
 			<div className="addmovieForm">
-				<p className="Hadding">Fill this form to add Movie</p> 
+				<div className="Hadding_1">
+					<p className="Hadding">Fill this form to add Movie</p>
+				</div> 
+				<div className="cross" onClick={onDeleteForm}>
+					<img src="Frame 96.png"></img>
+				</div>
 				<div className="InputDiv1">
 					Name of Movie
 					<input type="text" className="nameinput" name="lname"></input>
