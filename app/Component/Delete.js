@@ -2,7 +2,7 @@ const DeleteBotton=({ onDelete })=>{
 	return(
 		<>
 			<div className="deleteDive">
-				<img src="Vector.png" className="Icon" alt="logo" onClick={onDelete}></img>
+				<img src="delete.png" className="Icon" alt="logo" onClick={onDelete}></img>
 			</div>
 		</>
 	)

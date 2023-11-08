@@ -5,7 +5,7 @@ var Head = ()=>{
 				<div className="row_1"></div>
 				<div className="row_2">
 					<div className="Img">
-				    	<img src="icon - Logo.svg" className="Icon" alt="logo"></img>
+				    	<img src="Vector.png" className="Vector" alt="logo" ></img>
 				    </div>
 				    
 				    <div className="PMovieHub">

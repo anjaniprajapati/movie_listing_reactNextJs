@@ -5,6 +5,7 @@ import Head from './Component/Header'
 import Movie_Row from './Component/Movie_row'
 import AddMovie from './Component/Addmovie'
 import Add_New_Movie from './Component/Add_new_movie'
+import MovieText from './Component/Movie_Text'
 import Foot from './Component/Footer'
 import styles from './page.module.css'
 import DummyValue from './Component/Dummy_Value'
@@ -64,9 +65,9 @@ export default function Home() {
 					onDelete={() => handleDeleteMovie(data.id)} 
 				/>
 	  		))}
-	  		
-			{showForm && <AddMovie />}
-			<Add_New_Movie onClick={handleButtonClick} />
+	  		<MovieText/>
+			{showForm ? <AddMovie /> : <Add_New_Movie onClick={handleButtonClick} />}
+			
 			<Foot />
   		</>
   	);
