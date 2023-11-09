@@ -17,7 +17,7 @@ export default function Home() {
 	const [movies, setMovies] = useState(DummyValue)
 	
 	const handleButtonClick = () => {
-    setShowForm(true);
+    setShowForm(!showForm);
 	};
 	
 	const handleDeleteMovie = (id) => {
@@ -45,7 +45,7 @@ export default function Home() {
 		setVote(Vote)
 	}
 	
-
+	
   	
   
   	return (
@@ -66,7 +66,7 @@ export default function Home() {
 				/>
 	  		))}
 	  		<MovieText/>
-			{showForm ? <AddMovie /> : <Add_New_Movie onClick={handleButtonClick} />}
+			{showForm ? <AddMovie onDeleteButton={handleButtonClick} /> : <Add_New_Movie onClick={handleButtonClick} />}
 			
 			<Foot />
   		</>

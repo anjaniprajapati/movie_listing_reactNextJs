@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-const AddMovie = ({onClick }) => {
+const AddMovie = ({onDeleteButton}) => {
 
 	const [movies, setMovies] = useState([]);
 	const [formData, setFormData] = useState({
@@ -74,7 +74,7 @@ const AddMovie = ({onClick }) => {
 					<p className="Hadding">Fill this form to add Movie</p>
 				</div>
 				<form onSubmit={handleSubmit}>
-					<div className="cross" onClick={onClick}>
+					<div className="cross" onClick={onDeleteButton}>
 						<img src="Frame 96.png"></img>
 					</div>
 					<div className="InputDiv1">
